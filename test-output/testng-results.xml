@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="8" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4769" started-at="2021-10-08T11:48:27Z" finished-at="2021-10-08T11:48:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4769" started-at="2021-10-08T11:48:27Z" finished-at="2021-10-08T11:48:32Z">
+      <class name="day2.PositiveContactListTest">
+        <test-method status="PASS" signature="addingContact()[pri:0, instance:day2.PositiveContactListTest@6b26e945]" name="addingContact" duration-ms="3409" started-at="2021-10-08T11:48:27Z" description="adding specific contact" finished-at="2021-10-08T11:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingContact -->
+        <test-method status="PASS" signature="updatingContact()[pri:0, instance:day2.PositiveContactListTest@6b26e945]" name="updatingContact" duration-ms="803" started-at="2021-10-08T11:48:31Z" description="updating specific contact" depends-on-methods="day2.PositiveContactListTest.addingContact" finished-at="2021-10-08T11:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatingContact -->
+        <test-method status="PASS" signature="getSpecificContact3()[pri:0, instance:day2.PositiveContactListTest@6b26e945]" name="getSpecificContact3" duration-ms="512" started-at="2021-10-08T11:48:32Z" description="check after updating specific contact" depends-on-methods="day2.PositiveContactListTest.updatingContact" finished-at="2021-10-08T11:48:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSpecificContact3 -->
+      </class> <!-- day2.PositiveContactListTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
